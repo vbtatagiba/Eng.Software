@@ -1,0 +1,33 @@
+algoritimo 1
+var
+Real:,PL,VT,divi,
+
+inicio
+print("preço da gasolina")
+input (PL)
+print ("valor do pagamento")
+input (VT)
+divi= VT/PL
+print ("o total de litros é,divi)
+end
+
+
+algoritimo 2
+
+var
+inteiro:n1,n2,n3,soma,mult,sub
+
+inicio 
+escreva ("O Primeiro Numero")
+ler (n1)
+escreva ("O Segundo Numero")
+ler (n2)
+escreva ("O terceiro Numero")
+ler (n3)
+soma= n1+n2+n3
+escreva ("a Soma dos numeros é",soma)
+mult= soma*3
+escreva ("o resultado da multiplicação é",mult)
+sub= mult-50
+escreva ("o resultado da subtração é",sub)
+fim
