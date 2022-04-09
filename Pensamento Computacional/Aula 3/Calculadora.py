@@ -9,15 +9,15 @@ mult=n1*n2*n3
 exp=n1**n2**n3
 div=n1/n2/n3
 rest=n1%n2%n3
-if op==("+"):
+if op=="+":
     print ('O resultado da Soma é:',soma)
-if op==("-"):
+if op=="-":
     print('O resuldado da Subtração é:',subs)
-if op==('*'):
+if op=='*':
     print ('O resuldado da multiplicação é',mult)
-if op==('**'):
+if op=='**':
     print ('O resuldado da exponenciação é:',exp)
-if op==('/'):
+if op=='/':
     print ('O resultado da divisão é:',div)
-if op==("%"):
+if op=="%":
     print ('O Resultado do Resto da divisão é:',rest)

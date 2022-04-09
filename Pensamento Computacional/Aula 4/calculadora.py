@@ -1,11 +1,9 @@
 # CALCULADORA
 n1 = int(input('\nDigite o PRIMEIRO NÚMERO: '))
 n2 = int(input('Digite o SEGUNDO NÚMERO: '))
-n3 = int(input('Digite o TERCEIRO NÚMERO: '))
-n4 = int(input('Digite o QUARTO NÚMERO: '))
 operador=str(input('qual o operador'))
 
-soma = n1+n2+n3+n4
+soma = n1+n2
 sub = n1-n2
 mult = n1*n2
 div = n1/n2
