@@ -11,13 +11,13 @@ div=n1/n2/n3
 rest=n1%n2%n3
 if op=="+":
     print ('O resultado da Soma é:',soma)
-if op=="-":
+elif op=="-":
     print('O resuldado da Subtração é:',subs)
-if op=='*':
+elif op=='*':
     print ('O resuldado da multiplicação é',mult)
-if op=='**':
+elif op=='**':
     print ('O resuldado da exponenciação é:',exp)
-if op=='/':
+elif op=='/':
     print ('O resultado da divisão é:',div)
-if op=="%":
+elif op=="%":
     print ('O Resultado do Resto da divisão é:',rest)
