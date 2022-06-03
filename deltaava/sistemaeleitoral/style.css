@@ -1,0 +1,11 @@
+.result {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: gold;
+}
+img{
+    display: block;
+    margin: 0px auto;
+   }
+   
