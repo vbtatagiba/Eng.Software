@@ -81,8 +81,6 @@ def relatorio():
     
 
 
-
-
 def menu():
     while True:
         print('Olá seja bem vindo ao nosso sistema. O que deseja fazer?')
