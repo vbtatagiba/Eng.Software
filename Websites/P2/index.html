@@ -1,0 +1,87 @@
+<html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victor Bernardo Tatagiba">
+    <meta name="keywords" content="Graduando de Engenharia de Software">
+    <link rel="stylesheet" href="style.css">
+    <title>Victor Bernardo Gomes de Tatagiba</title>
+</head>
+<body onload="mods()">
+        <nav id="navegação">
+            <table>
+                <td>
+                    <tr><button><a href="#index">Perfil</a></li></button>
+                    <tr><button><a href="#graduação">Graduação</a></li></button>
+                    <tr><button><a href="#contato">Contatos</a></li></button>
+                </td>
+            </table>
+        </nav>
+            <img align="top  left" src="https://cdn.discordapp.com/attachments/855597840428433459/1041877869183373493/foto-removebg-preview.png"><p>Futuro Engenheiro De Software e Geólogo</p></img>
+    
+        <div id="index">
+        <h1>Victor Bernardo Gomes de Tatagiba<h1>
+        <h2>Em formação Atualmente Pela UERJ - Universidade do Estado do Rio de Janeiro no curso de Geologia (2022) e pela Universidade de Vassouras em Engenharia de Software(2022).Nos meus tempos vagos gosto  jogar um pouco e programas, mas também adora viajar e curtir um pouco os momentos em família incluído a natureza.Estou atualmente cursando as duas faculdades, pois gosto muito dos 2 campos geologia devido ao meu tio que é Geólogo e Eng. de Software porque eu sempre gostei de mexer com tecnologia e sempre gostei de estar por dentro de tudo de mais recente no mercado</h2>
+    </div>
+    <div id="graduação">
+        <h2>Formado no 1° Ano no colegio evolução em itaipuaçu</h2>
+        <h2>Formado no 9° No E.M João Monteiro em itaipuaçu</h2>
+        <h2>Formado no Ensino Médio no Ciep 449 Intercultural Brasil-França</h2>
+        <h3>Master in English pelo CNA </h3>
+        <h3>Nivel B1 em frances pela Aliança francessa </h3>
+    </div>
+    <div id="contato">
+        <h1>Ficou Interessado segue o meu  contato:</h1>
+        <h2>Telefone:(21) 96408-4887</h2>
+        <h2>Email:vbtatagiba77@gmail.com</h2>
+        <h1>Redes Sociais:</h1>
+        <button><a href="https://www.linkedin.com/in/victor-bernardo-tatagiba-562171243/">Linkedin</button></a>
+        <button><a href="https://www.instagram.com/vbtatagiba/">Instragram</button></a>
+        <h1>Formulario de contato:</h1>
+        <form >
+        Nome: <input type="text" name="nome" placeholder="Digite seu Nome"><br>
+        Email: <input type="e-mail" name="email" placeholder="Digite seu e-mail"><br>
+        Estado: <select id="estados" onchange ="rj.metodo1();sp.metodo1();mg.metodo1()">
+            <option></option>
+            </select><br><br>
+        Cidade:<select id="cidades">
+            <option></option>
+            <script type="text/javascript">
+            var estados = document.getElementById('estados')
+            var cidades = document.getElementById('cidades')
+            /*Método que cada objeto de estado chama quando selecionado no select 'estados'*/
+            
+            var carregarSelects =function(){
+                if (estados.value == this.nome) {
+                for (var i = 0; i < this.cidades.length; i++){    
+                var item = document.createElement('option')
+                item.text = this.cidades[i]
+                cidades.appendChild(item)
+                }}}  
+            </script>
+            <!--Obejetos-->
+            <script type="text/javascript">
+            var arrayEstados = ['Rio de Janeiro']
+            var rj = {
+            nome: 'Rio de Janeiro',
+            cidades: ["Angra dos Reis","Aperibé","Araruama","Areal","Armação de Búzios","Arraial do Cabo","Barra do Piraí","Barra Mansa","Belford Roxo","Bom Jardim","Bom Jesus do Itabapoana","Cabo Frio","Cachoeiras de Macacu","Cambuci","Campos dos Goytacazes","Cantagalo","Carapebus","Cardoso Moreira","Carmo","Casimiro de Abreu","Comendador Levy Gasparian","Conceição de Macabu","Cordeiro","Duas Barras","Duque de Caxias","Engenheiro Paulo de Frontin","Guapimirim","Iguaba Grande","Itaboraí","Itaguaí","Italva","Itaocara","Itaperuna","Itatiaia","Japeri","Laje do Muriaé","Macaé","Macuco","Magé","Mangaratiba","Maricá","Mendes","Mesquita","Miguel Pereira","Miracema","Natividade","Nilópolis","Niterói","Nova Friburgo","Nova Iguaçu","Paracambi","Paraíba do Sul","Parati","Paty do Alferes","Petrópolis","Pinheiral","Piraí","Porciúncula","Porto Real","Quatis","Queimados","Quissamã","Resende","Rio Bonito","Rio Claro","Rio das Flores","Rio das Ostras","Rio de Janeiro","Santa Maria Madalena","Santo Antônio de Pádua","São Fidélis","São Francisco de Itabapoana","São Gonçalo","São João da Barra","São João de Meriti","São José de Ubá","São José do Vale do Rio Preto","São Pedro da Aldeia","São Sebastião do Alto","Sapucaia","Saquarema","Seropédica","Silva Jardim","Sumidouro","Tanguá","Teresópolis","Trajano de Morais","Três Rios","Valença","Varre-Sai","Vassouras","Volta Redonda"],
+            metodo1: carregarSelects
+            }
+            
+            
+            function mods(){
+                var listaEstados = document.getElementById('estados')
+            
+                for (var i = 0; i < arrayEstados.length; i++) {
+                    var item = document.createElement('option')
+                    item.text = arrayEstados[i]
+                    listaEstados.appendChild(item)
+            }
+            }
+            </script>
+    </div> 
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(20, 9, 57) ;
+    margin:30px ;
+}
+#index{
+    text-align: left;
+    padding: 3px; 
+    font-size: 20px;
+    border: 1px solid  blue;
+    background-color: rgb(10, 10, 142);
+    color:blue
+}
+img{
+    height: 150;
+    width: 150;
+    border: 5px solid black;
+    
+}
+#graduação{
+    background-color: lightskyblue;
+    letter-spacing: normal;
+    font-size: 17;
+    font-family:  times, Helvetica, sans-serif;
+    text-align: center;
+}
+#contato{
+    background-color: rgb(5, 83, 177);
+    text-align: center;
+    
+}
+#navegação{
+    position: fixed;
+    margin-left: 45%;
+}
+p{
+    font-size: 35;
+    text-align: center;
+    color: rgb(187, 187, 187);
+}
