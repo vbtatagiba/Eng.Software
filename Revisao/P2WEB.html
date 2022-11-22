@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>P2_Web</title>
+</head>
+<body>
+    <form method="post" action="mailto:fabriciio.fluu@gmail.com">
+        <table>
+            <tr>
+                <th>Cadastro Pessoal</th>
+                <th>Curso/Polo</th>
+        </table>    
+    <div id="dados">
+        <table>
+            <th>Dados Pessoais</th>
+        </table>  
+        <br><label><b>CPF:</b></label>
+        <br><input type="text" name="cpf" width="15" maxlength="11"></input><br>
+
+        <br><label><b>Nome:</b></label>
+        <br><input name="nome" type="text" width="49" maxlength="50" required></input><br>
+
+        <br><label><b>E-mail:</b></label>
+        <br><input type="email" name="email" width="49" maxlength="50" required></input><br>
+
+        <br><label><b> Redigite o E-mail:</b></label>
+        <br><input type="email" name="email" width="49" maxlength="50"></input><br>
+
+        <br><label><b>RG:</b></label>
+        <br><input type="text" name="rg" width="15" maxlength="11" required></input><br>
+
+        <br><label><b>Data de expedição:</b></label>
+        <br><input type="date" name="data" required></input><br>
+
+        <br><label><b>Órgão:</b></label>
+        <br><input type="text" name="orgao" width="17" maxlength="15" required></input><br>
+
+        <br><label><b>UF:</b></label>
+        <br><select name="UF" value="uf" required>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select><br>
+        
+        <br><label><b>Mãe:</b></label>
+        <br><input type="text" name="mae" width="49" maxlength="50" required></input><br>
+
+        <br><label><b>Pai</b></label>
+        <br><input type="pai" name="pai" width="49" maxlength="50"></input><br>
+
+        <br><label><b>Nascimento:</b></label>
+        <br><input type="date" name="data" required></input><br>
+
+        <br><label><b>Nacionalidade:</b></label>
+        <br><select name="nac" value="nac" required>
+            <option value="rumoaohexa">Brasil</option>
+            <option value="gringo">Estrangeiro</option>
+            <option value="imigrante">Naturalizado</option>
+        </select><br>
+
+        <br><label><b>Naturalidade:</b></label>
+        <br><select name="nat" value="nat" required>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select><br>
+
+            <br><label><b>Sexo:</b></label>
+            <br><select name="sex" value="sex" required>
+                <option value="masc">Masculino</option>
+                <option value="fem">Feminino</option>
+            </select><br>
+
+            <br><label><b>Estado Civil:</b></label>
+            <br><select name="EC" value="EC" required>
+                <option value="solteiro">Solteiro</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="viuvo">Viúvo</option>
+                <option value="outros">Outros</option>
+            </select><br>
+
+            <br><label><b>Candidato com deficiência:</b></label>
+            <br><select name="PCD" value="PCD" required>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select><br>
+
+            <br><label><b>Tipo de deficiência:</b></label>
+            <br><select name="def" value="def">
+                <option value="cegueira">Cegueira</option>
+                <option value="baixa visão">Baixa Visão</option>
+                <option value="surdez">Surdez</option>
+                <option value="def Auditiva">Deficiência Auditiva</option>
+                <option value="fisica">Deficiência Física</option>
+                <option value="multipla">Deficiência Múltipla</option>
+                <option value="Mental">Deficiência Mental</option>
+            </select><br>
+
+            <br><label><b>Cor/Raça:</b></label>
+            <br><select name="raça" value="raça" required>
+                <option value="branca">Branca</option>
+                <option value="preta">Preta</option>
+                <option value="parda">Parda</option>
+                <option value="amarela">Amarela</option>
+                <option value="indigena">Indígena</option>
+                <option value="n/d">Não declarada</option>
+            </select><br>
+        </table>
+        </div>
+        <div id="loc">
+            <table>
+                <th>Localização</th>
+            </table>
+            <br><label><b>Tipo:</b></label>
+            <br><select name="tipo" value="tipo" required>
+                <option value="alameda">Alameda</option>
+                <option value="avenida">Avenida</option>
+                <option value="Distrito">Distrito</option>
+                <option value="Estrada">Estrada</option>
+                <option value="Fazenda">Fazenda</option>
+                <option value="Loteamento">Loteamento</option>
+                <option value="morro">Morro</option>
+                <option value="Recanto">Recanto</option>
+                <option value="Residencial">Residencial</option>
+                <option value="rodovia">rodovia</option>
+                <option value="rua">Rua</option>
+                <option value="sitio">Sitío</option>
+                <option value="Travessa">Travessa</option>
+                <option value="Trevo">Trevo</option>
+                <option value="Via">Via</option>
+                <option value="viela">Viela</option>
+                <option value="vila">Vila</option>
+            </select><br>
+
+            <br><label><b>Endereço:</b></label>
+        <input name="end" type="text" width="90" maxlength="100" required></input><br>
+
+        <br><label><b>Número:</b></label>
+        <input name="num" type="number" width="5" maxlength="7" required></input><br>
+
+        <br><label><b>Complemento:</b></label>
+        <input name="comp" type="text" width="49" maxlength="50"></input><br>
+
+        <br><label><b>Bairro:</b></label>
+        <input name="bairro" type="text" width="49" maxlength="50" required></input><br>
+
+        <br><label><b>CEP:</b></label>
+        <input name="Cep" type="text" width="5" maxlength="7" required></input><br>
+
+        <br><label><b>Estado:</b></label>
+        <br><select name="estado" value="estado" required>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select><br>
+            
+
+
+
+
+
+            <br><label><b>Telefone:</b></label>
+            <input name="Telefone" type="cel" width="5" maxlength="12" required></input><br>
+
+            <br><label><b>Outro telefone para contato:</b></label>
+            <input name="outroTelefone" type="cel" width="5" maxlength="12" required></input><br>
+        </div>
+        <div id="sis">
+            <table>
+                <th>Acesso</th>
+            </table>
+            <br><label><b>Defina Sua Senha de acesso:</b></label>
+            <input name="senha" type="password" width="15" maxlength="20" required></input><br>
+    
+            <br><input  type="submit" value="Enviar"></input>
+           <center> <button  onclick="location.href='pag2p2.html'">Proxima Pagina</button></center>
+        </div>
+    </form>
+
+</body>
+</html>

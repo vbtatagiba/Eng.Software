@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Revisão</title>
+        <style>
+            html{
+            background-color: bisque;
+            text-align: center;
+        }
+        
+        </style>
+</head>
+
+<h1><b>REVISÃO DE FORMULÁRIOS</b></h1>
+<body onload="mods()">
+    <form method="post" action="mailto:fabriciio.fluu@gmail.com">
+        <label for="">Digite seu nome:</label>
+        <input id="name" name="name" type="text" width="30" maxlength="25"></input><br>
+        
+        <label for="">Digite seu sobrenome:</label>
+        <input id="sobrenome" name="sobrenome" type="text" width="30" maxlength="25"></input><br>
+        
+        <p>Selecione seu sexo</p>
+        <input type="radio" id="masc" name="masc">Masculino</input>
+        <input type="radio" id="fem" name="fem">Feminino</input><br>
+        
+        <select name="cidade" value="cidade">
+            <option value="rj">RJ</option>
+            <option value="sp">SP</option>
+        </select><br>
+        
+        <input type="color">cor</input>
+        
+        <p>Deixe aqui seu comentário:</p>
+        <textarea name="coment" rows="25" cols="100"> comentário</textarea><br>
+        
+        <br><input type="submit" value="Enviar"></input>
+        <input type="reset" name="apagar" value="Apagar"></input><br>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <select name="estado" id="estado">
+            <?php
+                 include'conexao.php';
+           
+                 $buscaEstado = mysqli_query($conexao, "SELECT idEstado, nomeEstado FROM estado");
+           
+                 while($estado = mysqli_fetch_object($buscaEstado):
+                       echo "<option value='$estado->idEstado'>$estado->nomeEstado</option>";
+                 endwhile;
+           
+         </select>  
+                       
+                       
+         <select name="cidade" id="cidade">
+         </select>
+
+</script>		
+</head>
+
+<body>
+
+
+
+</body>
+</html>
