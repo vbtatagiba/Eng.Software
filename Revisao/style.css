@@ -1,0 +1,36 @@
+table,th{
+    border:1px ridge black;
+    border-style: ridge;
+    border-radius: 1px;
+    padding: 4px;
+    border-collapse: collapse;
+    background-color: grey;
+}
+#dados{
+    border:1px  black;
+    border-style: ridge;
+    border-radius: 1px;
+    padding: 7px;
+}    
+#loc{
+    border:1px solid black;
+    border-radius: 1px;
+    padding: 7px;
+}    
+#sis{
+    border:1px solid black;
+    border-radius: 1px;
+    padding: 7px;
+}
+input{
+    padding:5px ;
+    width: 97%;
+    margin: auto;
+    display: block;
+}
+select{
+    padding:5px ;
+    width: 97%;
+    margin: auto;
+    display: block;
+}
