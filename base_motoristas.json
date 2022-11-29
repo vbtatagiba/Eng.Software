@@ -1,0 +1,37 @@
+{
+        "Victor Bernardo ": {
+            "carro":"1.125" ,
+            "nome":"Victor Bernardo",
+            "matricula":"202211960",
+            "rota": "Rio-Maricá",
+            "Viagens": "3"
+        },
+        "Roberta": {
+            "carro":"1.157" ,
+            "nome":"Roberta",
+            "matricula":"2",
+            "rota": "Rio-Itaipuaçu",
+            "Viagens": "6"
+        },
+        "Eduardo ": {
+            "carro":"1.285" ,
+            "nome":"Eduardo",
+            "matricula":"3",
+            "rota": "Niterói-Maricá",
+            "Viagens": "4"
+        },
+        "Renata": {
+            "carro":"1.154" ,
+            "nome":"Renata",
+            "matricula":"4",
+            "rota": "Niteroi-Itaipuaçu",
+            "Viagens": "4"
+        },
+        "Joyce": {
+                "carro":"1.108" ,
+                "nome":"Joyce",
+            "matricula":"5",
+            "rota": "Rio-Ponta Negra",
+            "Viagens": "8"
+        }
+}
