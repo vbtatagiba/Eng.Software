@@ -191,15 +191,18 @@ def despachante():
                             carros.append(rota)
                             break
                     #TRATATIVA PARA O INPUT DE VIAGENS
-                    while True:            
-                        viagens=int(input('|Insira quantas Viagens o Motorista dará: '))
-                        if viagens>0:
-                            carros.append(viagens)
-                            break
-                        else:
-                            print('Insira Apenas Numeros')
-                    for k,v in carros.items():
-                        print(k,v)
+                    while True:
+                        viagens = input('|Qual o número de viagens?  ').title() # deixa a primeira letra maiuscula
+                        try:
+                            viagens = int(viagens)
+                            print('Por favor, digite um valor correto.')
+                        except:
+                            if len(viagens) >= 1:
+                                carros.append(viagens)
+                                break
+                            else:
+                                print('Por favor, digite um número inteiro.')
+                    print(carros)
       
                     carros[mat_carro] = {"Motorista": Motorista, "matricula": matricula, "rota": rota, "viagens": viagens}
                     att_flie()
