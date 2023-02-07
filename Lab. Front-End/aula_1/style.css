@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgba(200, 77, 0, 0.808);
+    border-left: 50px solid rgb(4, 25, 109);
+    border-right: 50px solid rgb(4, 25, 109);
+    border-bottom: 50px solid rgb(4, 25, 109);
+    font-size: 18px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#top{
+    font-family: 'Times New Roman', Times, arial;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    background-color: rgb(4, 25, 109);
+    
+}
+
+#comeco{
+    font-family: 'Times New Roman', Times, arial;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, arial;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#defini{
+    font-family: 'Times New Roman', Times, arial;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#caract{
+    font-family: 'Times New Roman', Times, arial;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#Vantagens{
+    font-family: 'Times New Roman', Times, arial;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#form{
+    margin-left: 300px; 
+    margin-right: 300px;
+}
+nav,a{  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
