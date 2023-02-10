@@ -1,3 +1,0 @@
-1°-calculo de media de 4 notas,=>7 aprovado <7>= Exame Final <4 reprovado,
-2°-Programa para organizar um array-> por ordem alfabetica = Nao pode usar sort nao pode usar função pronta do python
-3°- criar uma função que vai receber 5 cidades e organizar em ordem alfabetica
