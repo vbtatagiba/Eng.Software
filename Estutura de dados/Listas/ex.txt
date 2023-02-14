@@ -1,0 +1,19 @@
+1°Criar uma lista com 10 números inteiros aleatórios e imprimir o maior e o menor número da lista.
+
+2°Criar duas listas de números inteiros e mesclá-las em uma terceira lista em ordem crescente.
+
+3°Criar uma lista com nomes de pessoas e ordená-la alfabeticamente.
+
+4°Remover todas as ocorrências de um determinado número de uma lista de números inteiros.
+
+5°Criar uma lista com números inteiros e contar quantos números pares e quantos números ímpares existem na lista.
+
+6°Criar uma lista com números inteiros e verificar se um determinado número está na lista ou não.
+
+7°Criar uma lista com nomes de frutas e verificar se uma determinada fruta está na lista ou não.
+
+8°Criar uma lista de números inteiros e calcular a soma de todos os números na lista.
+
+9°Criar uma lista de números inteiros e calcular a média dos números na lista.
+
+10°Criar uma lista com nomes de pessoas e imprimir o primeiro e o último nome da lista.

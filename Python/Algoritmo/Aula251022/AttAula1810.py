@@ -17,7 +17,7 @@ calc= num1/num2
 if calc == 0:
     print('É Divisivel')
 else:
-   print('não é divisivel')
+    print('não é divisivel')
 
 # cont = 0
 # lista1 = []
