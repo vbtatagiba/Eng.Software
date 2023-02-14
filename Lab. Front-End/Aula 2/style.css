@@ -1,0 +1,99 @@
+
+body {
+width:960px;
+margin: 15px auto;
+font-family: Times, "MS Trebuchet", sans-serif;
+background-color: whitesmoke
+}
+
+header, section, footer {
+border-style: groove;   
+border-width: thin;
+border-color: rgb(50, 0, 255);
+}
+header#pageHeader {
+position: top;
+width: 25.3cm;
+}
+
+section header {
+border: none;
+border-bottom-style:solid;
+border-bottom-width: thin;
+}
+
+
+/* Transformando a lista de link em uma estrututa horizontal */
+header#pageHeader nav ul, #pageFooter nav ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+
+}
+#text{
+    border:solid 1px black
+}
+p {
+margin: 0 0 20px 15px;
+line-height: 20px;
+
+}
+
+#pageHeader nav ul li, #pageFooter nav ul li {
+padding: 0;
+margin: 0 20px 0 0;
+display: inline;
+}
+
+
+/* Ajustando o sidebar */
+section#sidebar {
+float:left;
+width: 25%;
+height: 15.6cm;
+}
+
+/* Ajustando os posts */
+section#posts {
+float:left;
+width:18.9cm;
+height: 14.6cm;
+}
+/* Ajustando os comentarios */
+#coment{
+    height: auto;
+    position: relative;
+    border: none;
+    font-family: initial;
+}
+
+
+
+/* Ajustando o Rodape  */
+footer#pageFooter {
+    position: absolute;
+    bottom: 0;
+    clear:both;
+    width: 25.3cm;
+    height: auto;
+}
+
+/* nao visitado link */
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visitado link */
+a:visited {
+    color: purple;
+  }
+  
+  /* mouse em cima link */
+a:hover {
+    color: red;
+  }
+  
+  /* Selecionado link */
+a:active {
+    color: aqua;
+  }

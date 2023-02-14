@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+  <head>
+    <!-- Codificacao da Pagina -->
+    <meta charset="UTF-8">
+    <!-- Titulo da pagina -->
+    <title>HTML 5 - Elementos Estruturais - seccionamento </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+ 
+  <body>
+    <!-- Corpo da Pagina -->
+    <center>
+    <header id="pageHeader">
+      <nav id=“menuPrincipal”>
+        <button><a href=“#”>Home</a></button>
+        <button><a href=“#”>Post mais recentes</a></button>
+        <button><a href=“#”>Arquivo</a></button>
+        <button><a href=“#”>Contato</a></button>
+    </nav>
+      
+      <h2> HTML5 e CSS3</h2>
+      <h3> Aula 2</h3>
+      <p>Exemplo de uso dos elementos estruturais</p>
+      
+    </center>
+    </header>
+    <!--Menu Lateral - Esquerda -->
+ 
+    <!--Menu Lateral - Direita-->
+    <section id=sidebar>
+      <nav>
+        <h3> Categorias </h3>
+        <ul>
+          <li><a href=”categoria?cat=1”>Categoria 1</a></li>
+          <li><a href=”categoria?cat=1”>Categoria 2</a></li>
+          <li><a href=”categoria?cat=1”>Categoria 3</a></li>
+          <li><a href=”categoria?cat=1”>Categoria 4</a></li>
+          <li><a href=”categoria?cat=1”>Categoria 5</a></li>
+          <li><a href=”categoria?cat=1”>Categoria 6</a></li>
+        </ul>
+      </nav>
+      <p>Deixe aqui sua sugestao de melhorias</p>
+        <form method="post" action="mailto:vbtatagiba77@gmail.com?subject=subject&message=message">
+          <textarea align="center" rows="20" cols="27" maxlength="50" name="sugestoes"></textarea>
+          <button>Enviar</button>
+        </form>
+      
+    </section>
+ 
+    <!-- Principais posts do site-->
+    <section id=posts>
+      <aticle id=“1502” class=“post”>
+        <header align="center">
+          <h3>Aula 2 </h3>
+          <h4> Turma B de eng. de Software
+            <time datetime=“ 2023-02-13T19:10:20”> 13 de fevereiro de 2023 às 19:10</time>
+          </p>
+        </header>
+        <div id="text">
+          <br>
+        <p id="text">
+          Quando a maioria das pessoas fala em “HTML”, elas se referem à tecnologia como um todo, 
+          incluindo sua última versão: HTML5. Embora seja muito diferente em muitos aspectos, o HTML5 
+          é realmente apenas uma atualização polida para o padrão antigo.
+          Enquanto HTML e HTML5 fazem parte do mesmo sistema, a grande atualização trouxe várias melhorias à 
+          antiga linguagem de codificação, tornando-a ainda mais eficiente
+        </p>
+        <p id="text">
+          HTML5, sigla para Hypertext Markup Language, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web. Ela traz novas funções como as tags video,audio e elemento canvas e será o novo padrão para HTML, XHTML e HTML DOM. Com o HTML5, por exemplo, é possível ver vídeos do YouTube sem o Flash.
+        </p>
+        <p id="text">
+          Com o novo padrão será mais simples incorporar um vídeo à uma página. A linguagem possui a tag video para a inserção de vídeos e basta indicar uma source (fonte), ou seja, a origem do vídeo, para inseri-lo à página.
+        </p>
+        <p id="text">
+          Com o surgimento da web, era necessário criar uma linguagem que fosse entendida por meios de acesso diferentes. Para tanto, Tim Berners-Lee desenvolveu o HTML, com a proposta de suprir essa necessidade. Somente na década de 1990, quando o Mosaic – browser desenvolvido por Marc Andreessen – se popularizou, o HTML ganhou força e foi adotado por outros desenvolvedores e fabricante de browsers, compartilhando as mesmas convenções.
+        </p>
+      </div>
+        <br>
+        <footer id="coment" align="center">
+          <p><a href=“coments?post=1502”> 41 comentários</a></p></br>
+        </footer>
+        </article>
+    </section>
+ 
+    
+    <center>
+    <footer id=pageFooter>
+      <p><i> &copy; 2023 - FRONT END</i></p>
+      <nav id=menuRodape>
+          <button><a href=“#”>Endereço</a></button>
+          <button><a href=“#”>Sobre</a></button>
+          <button><a href=“#”>Termos de uso</a></button>
+          <button><a href=“#”>Política de privacidade</a></button>
+      </nav>
+    </footer>
+  </center>
+  </body>
+ 
+</html>
