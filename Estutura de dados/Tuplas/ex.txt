@@ -1,0 +1,10 @@
+1-Criar uma tupla com 10 números inteiros aleatórios e imprimir o maior e o menor número da tupla.
+2-Criar duas tuplas de números inteiros e mesclá-las em uma terceira tupla em ordem crescente.
+3-Criar uma tupla com nomes de pessoas e ordená-la alfabeticamente
+4-Remover todas as ocorrências de um determinado número de uma tupla de números inteiros.
+5-Criar uma tupla com números inteiros e contar quantos números pares e quantos números ímpares existem na tupla.
+6-Criar uma tupla com números inteiros e verificar se um determinado número está na tupla ou não.
+7-Criar uma tupla com nomes de frutas e verificar se uma determinada fruta está na tupla ou não.
+8-Criar uma tupla de números inteiros e calcular a soma de todos os números na tupla.
+9-Criar uma tupla de números inteiros e calcular a média dos números na tupla.
+10-Criar uma tupla com nomes de pessoas e imprimir o primeiro e o último nome da tupla.

@@ -1,0 +1,11 @@
+1-Criar um dicionário com informações pessoais, incluindo nome, idade, endereço e telefone.
+2-Adicionar um item a um dicionário existente.
+3-Remover um item de um dicionário existente.
+4-Atualizar o valor de um atributo em um dicionário existente.
+5-Contar o número de itens em um dicionário.
+6-Verificar se um determinado atributo está presente em um dicionário.
+7-Obter o valor de um determinado atributo em um dicionário.
+8-Percorrer todos os itens em um dicionário e imprimir os atributos e valores.
+9-Agrupar informações relacionadas em um único dicionário, como informações de contato de várias pessoas.
+10-Armazenar uma contagem de palavras em um texto usando um dicionário, onde as palavras são os atributos e as contagens são os valores.
+
