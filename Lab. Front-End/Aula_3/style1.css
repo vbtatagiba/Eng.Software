@@ -1,0 +1,91 @@
+#img2{
+    width: 300px;
+    height: 260px;
+}
+body, html {
+/* A imagem usada */
+background-image: url("imagens/background1.jpg");
+/*Tamanho tela cheia */
+height: 100%;
+width: 100%;
+/* Centralização e escalonamento da imagem */
+background-position: center;
+background-image: url("imagens/background1.jpg");
+background-size: cover;
+}
+.bg {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.areaImagem{
+    display: inline-block;
+    width: 15%;
+    margin: 2%;
+    vertical-align: top;
+}
+
+.areaTexto{
+    display: inline-block;
+    vertical-align: left;
+    margin: 1%;
+    width: 70%;
+
+
+
+    color:rgb(0, 0, 0);
+
+    background-color: rgba(41, 41, 41, 0.2)   ;
+}
+p{
+    display: inline-block;
+    vertical-align: left;
+    margin: 1%;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 10px;
+    margin: left 700px;
+    background-color:  rgba(55, 55, 55, 0.2);
+    text-align: center;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    clear:both;
+    width: 100%;
+    text-align: center;
+}
+.botao1 {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	opacity:0.75;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.botao1:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.botao1:active {
+	position:relative;
+	top:1px;
+}
