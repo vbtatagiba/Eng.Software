@@ -1,7 +1,4 @@
-#img2{
-    width: 300px;
-    height: 260px;
-}
+
 body, html {
 /* A imagem usada */
 background-image: url("imagens/background1.jpg");
@@ -18,37 +15,30 @@ background-size: cover;
     width: 100%;
 
 }
-
+img{
+    width: 250px;
+    height: auto;
+    align-self: auto;
+    background-color:  rgba(255, 255, 255, 0.5);
+}
 .areaImagem{
-    display: inline-block;
-    width: 15%;
+    display: inline;
+    float:left;
+    width: 14%;
     margin: 2%;
-    vertical-align: top;
 }
 
-.areaTexto{
-    display: inline-block;
-    vertical-align: left;
-    margin: 1%;
-    width: 70%;
-
-
-
-    color:rgb(0, 0, 0);
-
-    background-color: rgba(41, 41, 41, 0.2)   ;
-}
 p{
-    display: inline-block;
+    display: auto;
     vertical-align: left;
     margin: 1%;
+    margin-left: 5%;
     width: 70%;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     padding: 10px;
-    margin: left 700px;
-    background-color:  rgba(55, 55, 55, 0.2);
-    text-align: center;
+    background-color:  rgba(255, 255,255, 0.5);
+    text-align: left;
     
 }
 h1{
