@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+header {
+background: grey;
+padding: 20px 0;
+}
+
+.caixa {
+width: 1070;
+position: relative;
+margin: 0 auto;
+}
+
+h1 {
+margin: 0;
+}
+
+
+nav {  
+position: absolute;
+top: 100px;
+right: 120px;
+
+}
+
+nav li {  
+display: inline;
+margin-left: 15px;
+}
+
+nav a {  
+text-transform: uppercase;
+color: black;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+}
+
+nav a:hover {
+color: darkorange;
+text-decoration: underline;
+}
+.botao1 {
+	box-shadow: 3px 4px 0px 0px #DEB887;
+	opacity:0.75;
+	background:linear-gradient(to bottom, #8B4513 5%, #A0522D 100%);
+	background-color:#A0522D;
+	border-radius:18px;
+	border:1px solid #A0522D;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #A0522D;
+}
+.botao1:hover {
+	background:linear-gradient(to bottom, #8B4513 5%, #A0522D 100%);
+	background-color:#7e5407fa;
+}
+.botao1:active {
+	position:relative;
+	top:1px;
+}
+
+.tituloCentralizado {
+    text-align: center
+}
+
+.tituloPrincipal {
+    padding-left: 20px;
+}
+.tituloPrincipal img{
+    width: 40px;
+    height: 40px;
+}
+.principal {
+/* background: #cccccc; */
+padding: 30px;
+background-color: grey;
+color:#A0522D;
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.prods {
+    width: 100px;
+    height: 70px;
+}
+table, th, td {
+    border: 1px solid;
+    align-items: center;
+}
+footer {
+    text-align: center;  
+    background: url("bg.jpg");
+    padding: 40px 0;
+    background-color: #f0982e;
+    margin: 20px;
+    display: table; 
+  margin: 0px auto 0px auto; 
+  padding:5px;font-size:20px;
+}
+  
+.copyright {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+    
