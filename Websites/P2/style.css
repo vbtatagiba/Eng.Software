@@ -1,25 +1,27 @@
 body{
-    background-color:rgb(20, 9, 57) ;
+    background-color:rgb(255, 255, 255) ;
     margin:30px ;
+    font-family: 'Times New Roman', Times, serif;
 }
 #index{
     text-align: left;
     padding: 3px; 
     font-size: 20px;
     border: 1px solid  blue;
-    background-color: rgb(10, 10, 142);
-    color:blue
+    background-color: rgba(10, 10, 142, 0.69);
+    color:rgb(0, 0, 0)
 }
 img{
-    height: 150;
-    width: 150;
+    height: 250px;
+    width: 260px;
     border: 5px solid black;
+    background-color: #483D8B;
     
 }
 #graduação{
     background-color: lightskyblue;
     letter-spacing: normal;
-    font-size: 17;
+    font-size: 13;
     font-family:  times, Helvetica, sans-serif;
     text-align: center;
 }
@@ -29,11 +31,66 @@ img{
     
 }
 #navegação{
-    position: fixed;
-    margin-left: 45%;
+    position: absolute;
+    margin-left: 590px;
+
 }
 p{
     font-size: 35;
     text-align: center;
     color: rgb(187, 187, 187);
+}
+.botao1 {
+    box-shadow: 3px 4px 0px 0px #4169E1;
+    opacity:0.75;
+    background:linear-gradient(to bottom, #1E90FF 5%, #87CEEB 100%);
+    background-color:#87CEEB;
+    border-radius:18px;
+    border:1px solid #87CEEB;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:8px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #483D8B;
+}
+.botao1:hover {
+    background:linear-gradient(to bottom, #1E90FF 5%, #4169E1 100%);
+    background-color:#87CEEB;
+}
+.botao1:active {
+    position:relative;
+    top:1px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Instagram */
+.fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+/* Twitter */
+.fa-twitter {
+background: #55ACEE;
+color: white;
 }

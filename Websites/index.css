@@ -20,16 +20,8 @@
     font-size: 20px;
   }
 
-  table {
+  table , th ,td{
     border: 1px solid;
     table-layout: auto;
   }
 
-  th{
-    border: 1px solid;
-
-  }
-
-  td{
-    border: 1px solid;
-  }
