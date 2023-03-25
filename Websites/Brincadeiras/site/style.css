@@ -1,0 +1,45 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0;
+  }
+  
+  button {
+    background-color: #ff6666;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #mensagem {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
