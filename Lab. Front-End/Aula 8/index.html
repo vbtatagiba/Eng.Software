@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Aluno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Aluno</h1>
+    <form>
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="matricula">Matrícula:</label>
+      <input type="number" id="matricula" name="matricula" required>
+
+      <label for="cargaHorariaTotal">Carga Horária Total:</label>
+      <input type="number" id="cargaHorariaTotal" name="cargaHorariaTotal" required>
+
+      <label for="cargaHorariaCursada">Carga Horária Cursada:</label>
+      <input type="number" id="cargaHorariaCursada" name="cargaHorariaCursada" required>
+
+      <button type="submit" id="salvar">Salvar</button>
+    </form>
+    <div id="resultado"></div>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome Completo</th>
+          <th>Matrícula</th>
+          <th>Carga Horária Total</th>
+          <th>Carga Horária Cursada</th>
+          <th>Carga Horária Restante</th>
+        </tr>
+        <button id="limparLocalStorage">Limpar Local Storage</button>
+
+      </thead>
+      <tbody id="alunos"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
